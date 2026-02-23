@@ -94,16 +94,6 @@ function App() {
         </form>
       </div>
 
-      
-      <div className="card">
-        <h2>Uncontrolled Login</h2>
-        <form onSubmit={uncontrolledLogin}>
-          <input type="text" placeholder="emilys" ref={userRef} />
-          <input type="password" placeholder="emilyspass" ref={passRef} />
-          <button>Login</button>
-        </form>
-      </div>
-
       <ToastContainer position="top-right" autoClose={3000} />
     </div>
   );
